@@ -10,9 +10,9 @@ end up as a proper game at some point.
 
 ## Subdirectories
 
-- `the-board-room`: Closing a deal.
-- `fail-the-job-interview`: An exercise in wasting someone's time on purpose.
 - `read-the-mind`: A fantasy adventure in mind reading.
+- `fail-the-job-interview`: An exercise in wasting someone's time on purpose.
+- `the-board-room`: Closing a deal.
 
 
 ## Building and running
