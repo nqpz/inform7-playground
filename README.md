@@ -12,6 +12,7 @@ end up as a proper game at some point.
 
 - `the-board-room`: Closing a deal.
 - `fail-the-job-interview`: An exercise in wasting someone's time on purpose.
+- `read-the-mind`: A fantasy adventure in mind reading.
 
 
 ## Building and running
