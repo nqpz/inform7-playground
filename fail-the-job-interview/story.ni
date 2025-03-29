@@ -1,18 +1,31 @@
 "Fail the job interview" by "Niels G. W. Serup".
 
-Before looking:
-    say "It was late at night when the idea came to you: Why not waste time?"
+Before looking for the first time:
+    say "It was late at night when the idea came to you: Why not waste the time
+    of someone else? Why not purposefully walk into a space occupied by another
+    person, and just double down on reducing their effective time usage?";
+    say "This is your goal today, you think to yourself: Fail the job interview,
+    which you were somehow invited to, and in the process waste several people's
+    time!"
+
+Definition: a direction (called thataway) is viable if the room thataway from the location is a room.
 
 The Reception is a room. "The reception is a welcoming place if you like white
 walls, white desks, white chairs, a white floor, a white ceiling, big glass
 fronts, and bright sun shining through them. If you don't, it's a bit much."
 
 There is a receptionist in the reception. "A receptionist sits behind an
-oversized desk."
+oversized desk and points you to a door to the south."
+
+Interview-bound is a direction. Understand "interview" or "to interview" as interview-bound.
+
+
+[ Check room entering: ]
+[     now the player is in room ]
 
 Outdoors is north of the reception.
 
-The Interview room is south of the reception.
+The Interview room is interview-bound of the reception.
 
 The Interview room is a room. "You're being interviewed for the position of
 Senior Consultant here. In the middle of a room is a table that seems to have
