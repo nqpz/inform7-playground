@@ -28,9 +28,6 @@ magician standing in a corner, seemingly expelling the fog that tries to intrude
 upon him - you can see both his feet." The magician is a person. Understand
 "wizard" as the magician.
 
-Carry out helping with magician:
-    say "This is a magician; anything you do should work."
-
 The description of the magician is "Mysterious not in appearance but in how his
 mysteriousness even manifests itself in the first place; looks very ordinary."
 
@@ -67,6 +64,9 @@ Carry out helping with sound when the sound is listened to:
 Carry out helping with sound when the sound is read:
     say "Sound itself is unlikely to be a mind.";
 
+Carry out helping with magician:
+    say "This is a magician; might he have a mind?"
+
 Instead of doing anything to magician for the first time:
     say "'There is no time!' he says, opening his arms. 'Take this mysterious
     mind reading device and be on your way.'
@@ -102,6 +102,9 @@ Instead of mind reading the magician:
     now the player is in wharf.
 
 Test mausoleum with "talk to magician / x sound / hear sound / mind sound / mind magician"
+
+Test help with "talk to magician / help sound / hear sound / help sound / mind
+sound / help sound / help magician"
 
 
 Part - Set pieces
