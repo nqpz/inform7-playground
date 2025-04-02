@@ -13,6 +13,7 @@ end up as a proper game at some point.
 - `read-the-mind`: A fantasy adventure in mind reading.
 - `fail-the-job-interview`: An exercise in wasting someone's time on purpose.
 - `the-board-room`: Closing a deal.
+- `cookie-clickee`: What if *you* were the cookie being clicked?
 
 
 ## Building and running
