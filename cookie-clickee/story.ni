@@ -13,12 +13,22 @@ is "Formless and insistent."
 Rule for printing the name of the clicks: say "[amount of clicks] click[if amount of clicks is
 not 1]s[end if]".
 
-Instead of waiting for the first time:
-    say "What's that? Did someone give you something?";
-    now Cookie carries clicks;
-    increment the amount of clicks
+Instead of eating clicks:
+    say "No, you're the edible one!"
 
 Instead of waiting:
     increment the amount of clicks
 
-Test waiting with "inventory / wait / inventory / examine clicks / wait / inventory"
+Before waiting for the first time:
+    say "What's that? Did someone give you something?";
+    now Cookie carries clicks;
+
+Before waiting for the second time:
+    say "Again? A click?"
+
+Before waiting for the third time:
+    say "Really, another one? You thought your destiny was to be eaten, not
+    repeatedly given clicks."
+
+Test waiting with "inventory / wait / inventory / examine clicks / wait / i /
+wait / i"
