@@ -7,8 +7,6 @@ There's not much to do here except wait around for fun things to happen."
 
 Cookie is a person. The player is Cookie.
 
-Number of clicks is a number that varies. Number of clicks is 0.
-
 Clicks are things. Clicks have a number called amount. The description of clicks
 is "Formless and insistent."
 
