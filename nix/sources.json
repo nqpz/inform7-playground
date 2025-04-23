@@ -5,10 +5,10 @@
         "homepage": null,
         "owner": "nqpz",
         "repo": "inform7-scaffolding",
-        "rev": "80f49efd8727cf6e7d18c4177e219cd70d1c50fa",
-        "sha256": "0yh41mrjmvgps7l4pc6hgisjf2x40x9wrzal4ack7lcl7lxi7hpy",
+        "rev": "365e06dbbec8e855a8cdf163421f728645a3b9e1",
+        "sha256": "0rin114h6zwpmqx5s3ksi7m76y110arrzz64qghh6nf0af04qsgf",
         "type": "tarball",
-        "url": "https://github.com/nqpz/inform7-scaffolding/archive/80f49efd8727cf6e7d18c4177e219cd70d1c50fa.tar.gz",
+        "url": "https://github.com/nqpz/inform7-scaffolding/archive/365e06dbbec8e855a8cdf163421f728645a3b9e1.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -17,10 +17,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "c8cd81426f45942bb2906d5ed2fe21d2f19d95b7",
-        "sha256": "146hn6w57hr341k5y003668gzh5l7shbikidn3r0ix33hb49sc5p",
+        "rev": "c11863f1e964833214b767f4a369c6e6a7aba141",
+        "sha256": "17d9zxpqxp54gz4zv4j4g0wb8c4i29j4q76xah8zi4bh7hrp5yhr",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/c8cd81426f45942bb2906d5ed2fe21d2f19d95b7.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/c11863f1e964833214b767f4a369c6e6a7aba141.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
