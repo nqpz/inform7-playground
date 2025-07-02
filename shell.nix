@@ -4,4 +4,4 @@ let
   pkgs = import sources.nixpkgs { };
   scaffolding = import sources.inform7-scaffolding pkgs;
 in
-scaffolding.mkShell
+scaffolding.mkShell []
