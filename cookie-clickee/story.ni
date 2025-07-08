@@ -49,22 +49,22 @@ To click (someone - person):
 		increment the amount of the clicks
 
 Carry out clicking:
-	click the noun
-
-Carry out someone clicking:
-	click the noun
-
-Report clicking:
+	click the noun;
 	say "You click [the noun]."
 
-Report someone clicking:
+Carry out someone clicking:
+	click the noun;
 	say "[The person asked] clicks [the noun]."
 
 To update cookie state:
 	if Cookie carries clicks (called clicks) and the amount of clicks is 4:
 		now Cookie is angry
 
-Report clicking when the noun is Cookie:
+Instead of clicking when the noun is Cookie:
+	update cookie state;
+	continue the action
+
+Instead of someone clicking when the noun is Cookie:
 	update cookie state;
 	continue the action
 
@@ -76,8 +76,6 @@ Report someone clicking when the noun is Cookie:
 			-- 3: say "Really, another one? You thought your destiny was to be eaten, not repeatedly given clicks.";
 			-- 4:
 				say "You successfully wait once more and get a click sent your way, but this is it. No more will you wait for clicks!";
-	update cookie state;
-	continue the action
 
 Every turn when the player is Cookie:
 	try Niels clicking Cookie
